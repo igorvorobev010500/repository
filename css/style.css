@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(fon.jpg);
+}
+div{
+    margin: auto;
+    background-color: transparent;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+td{
+    border: 2px solid orange;
+    color: black;
+    width: 10vw;
+    height: 10vw;
+    background-color: white;
+    font-size: 5vw;
+    pointer-events: visible;
+}
+table{
+    border: 2px solid orangered;
+    margin:  0 auto;
+    pointer-events: none;
+    border-collapse: collapse;
+}
+tr{
+    border: 2px solid orange;
+    pointer-events: none;
+}
+
+h1{
+    color: black;
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+}
+span{
+    margin-left: 5px;
+}
